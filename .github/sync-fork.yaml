@@ -1,0 +1,17 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '0 5 * * SUN'
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          owner: anton-yurchenko
+          base: master
+          head: master
