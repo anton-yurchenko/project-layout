@@ -12,6 +12,6 @@ jobs:
       - uses: anton-yurchenko/fork-sync@fix/deps 
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: anton-yurchenko
+          owner: golang-standards
           base: master
           head: master
