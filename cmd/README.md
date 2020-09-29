@@ -15,4 +15,6 @@ Examples:
 * https://github.com/prometheus/prometheus/tree/master/cmd
 * https://github.com/influxdata/influxdb/tree/master/cmd
 * https://github.com/kubernetes/kubernetes/tree/master/cmd
+* https://github.com/satellity/satellity/tree/master/cmd/satellity
+* https://github.com/dapr/dapr/tree/master/cmd
 
