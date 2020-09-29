@@ -9,7 +9,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: tgymnich/fork-sync@master
+      - uses: anton-yurchenko/fork-sync@fix/deps 
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           owner: anton-yurchenko
